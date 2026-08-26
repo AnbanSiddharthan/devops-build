@@ -1,0 +1,7 @@
+services:
+  app:
+    image: devops-build:dev
+    container_name: devops-app
+    ports:
+      - "80:80"
+    restart: always
